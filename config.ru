@@ -1,2 +1,2 @@
-require './question_detector'
+require './app'
 run Sinatra::Application
