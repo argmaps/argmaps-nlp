@@ -2,8 +2,8 @@ source 'https://rubygems.org'
 
 ruby '2.0.0'
 
-gem 'sinatra'
-gem 'json'
+gem 'sinatra', '1.4.3'
+gem 'json', '1.7.7'
 
 heroku_java_home = '/usr/lib/jvm/java-6-openjdk'
 ENV['JAVA_HOME'] = heroku_java_home if Dir.exist?(heroku_java_home)

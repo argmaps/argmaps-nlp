@@ -20,6 +20,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  json
+  json (= 1.7.7)
   open-nlp (= 0.1.2)
-  sinatra
+  sinatra (= 1.4.3)
