@@ -10,3 +10,7 @@ post '/detectors/question' do
   result = IsQuestion.verify(question_text)
   {result: result}.to_json
 end
+
+get '/heartbeat' do
+  'thump-thump'
+end
