@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 
 ruby '2.0.0'
 
+gem 'foreman', '0.63.0'
+gem 'puma', '2.0.1'
 gem 'sinatra', '1.4.3'
 gem 'json', '1.7.7'
 
